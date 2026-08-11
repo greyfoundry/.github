@@ -16,6 +16,14 @@ Elah is an early-stage distributed orchestration and ownership layer for Minecra
 - Technical decisions are recorded in issues, pull requests, and architecture decision records where appropriate.
 - Security reports follow the private reporting instructions in each repository's `SECURITY.md`.
 
+## Governance
+
+Greyfoundry uses project autonomy within an organization-wide baseline for access, security, licensing, releases, community safety, funding integrity, and continuity.
+
+- [Governance overview](https://github.com/greyfoundry/.github/blob/main/GOVERNANCE.md)
+- [Ten-year operating model](https://github.com/greyfoundry/.github/blob/main/docs/OPERATING_MODEL.md)
+- [Organization policy suite](https://github.com/greyfoundry/.github/tree/main/docs/policies)
+
 ## Get involved
 
 Start with the repository's `README.md` and `CONTRIBUTING.md`. Use project issues and discussions for project-specific questions.
@@ -23,3 +31,4 @@ Start with the repository's `README.md` and `CONTRIBUTING.md`. Use project issue
 ## Support
 
 If Greyfoundry's work has been useful to you, [support ongoing development on Ko-fi](https://ko-fi.com/greyfoundry). Contributions help cover development, hosting, testing, domains, and project infrastructure.
+
