@@ -41,12 +41,12 @@ Outside collaborators receive access only to the repositories and roles required
 
 Use visible teams unless membership itself is sensitive. Parent teams provide organization and mentions, not broad repository access.
 
-- 'engineering': parent for project engineering teams, with no direct repository access.
-  - '<project>-maintainers': Maintain access for day-to-day project administration and review.
-  - '<project>-triage': Triage access for issues, discussions, labels, and pull request workflow.
-- 'security': Security manager role and no owner access.
-- 'release-engineering': CI/CD administration only when required.
-- 'community': Moderator role and project-specific Triage access where needed.
+- `engineering`: parent for project engineering teams, with no direct repository access.
+  - `{project}-maintainers`: Maintain access for day-to-day project administration and review.
+  - `{project}-triage`: Triage access for issues, discussions, labels, and pull request workflow.
+- `security`: Security manager role and no owner access.
+- `release-engineering`: CI/CD administration only when required.
+- `community`: Moderator role and project-specific Triage access where needed.
 
 Create additional divisions only when they own a distinct responsibility. Do not create teams merely to mirror job titles.
 
