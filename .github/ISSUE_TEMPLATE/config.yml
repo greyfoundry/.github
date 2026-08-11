@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/greyfoundry/.github/security/policy
+    about: Read the organization security policy and use a private reporting route.
+  - name: Support and questions
+    url: https://github.com/greyfoundry/.github/blob/main/SUPPORT.md
+    about: Use the support route for usage help and general questions.
+
