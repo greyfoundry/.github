@@ -1,0 +1,40 @@
+name: Feature request
+description: Propose an outcome or capability for an active project.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: Describe the user or contributor need without assuming an implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Explain what success would look like.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Include workarounds or smaller approaches where relevant.
+  - type: textarea
+    id: impact
+    attributes:
+      label: Compatibility and operational impact
+      description: Note migration, security, performance, release, support, or maintenance effects.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and roadmap material for a duplicate.
+          required: true
+        - label: This request is consistent with the project's current lifecycle and published scope.
+          required: true
+
